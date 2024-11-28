@@ -8,6 +8,9 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -36,7 +39,12 @@ a, .btn {
   background-color: white;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 0.5rem 1rem; /* Уменьшить внутренние отступы */
+  padding: 0.5rem 1rem;
+  height: 60px; /* Задаём фиксированную высоту */
+}
+
+.main-content {
+  padding-top: 60px; /* Отступ равный высоте navbar */
 }
 
 .nav-links {
