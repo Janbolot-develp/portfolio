@@ -33,7 +33,7 @@ a, .btn {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: grey;
+  background-color: white;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 0.5rem 1rem; /* Уменьшить внутренние отступы */
