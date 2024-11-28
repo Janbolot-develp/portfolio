@@ -32,7 +32,7 @@ a, .btn {
   top: 0; 
   width: 100%; 
   background-color: #333; 
-  color: white; 
+  color: grey; 
   padding: 10px 0; 
   z-index: 1000;
 }
@@ -53,7 +53,7 @@ a, .btn {
 
 #desktop-nav .nav-links li a, 
 #hamburger-nav .menu-links li a { 
-  color: white; 
+  color: grey; 
   text-decoration: none; 
   font-size: 18px;
 }
