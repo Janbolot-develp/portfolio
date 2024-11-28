@@ -412,6 +412,11 @@ article div {
   border-color: rgb(163, 163, 163);
 }
 
+.additional-info {
+  text-align: center;
+  color: black;
+}
+
 /* Contact section */
 
 #contact {
