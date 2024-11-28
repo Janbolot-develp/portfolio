@@ -350,36 +350,36 @@ section {
 
 .experience-details-container {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: center; /* Центрирует содержимое по горизонтали */
+  flex-direction: column; /* Элементы будут выстраиваться вертикально */
+  align-items: center; /* Центрирует дочерние элементы по горизонтали */
 }
 
 .article-container {
   display: flex;
-  flex-wrap: wrap; /* Элементы будут переноситься, если не помещаются в одну строку */
-  justify-content: center; /* Центрирует все статьи в контейнере */
-  gap: 1rem; /* Расстояние между элементами */
+  flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+  justify-content: center; /* Центрирует все статьи внутри контейнера */
+  gap: 2.5rem; /* Расстояние между статьями */
 }
 
 article {
   display: flex;
   flex-direction: row; /* Горизонтальное расположение содержимого */
-  align-items: center; /* Центрирует элементы по вертикали */
-  justify-content: center; /* Центрирует содержимое горизонтально */
-  width: 200px; /* Задаем фиксированную ширину для всех статей */
+  align-items: center; /* Центрирует содержимое по вертикали */
+  justify-content: center; /* Центрирует содержимое по горизонтали */
+  width: 200px; /* Фиксированная ширина */
   padding: 1rem;
-  margin: 0;
-  box-sizing: border-box; /* Включает отступы и границы в ширину */
+  box-sizing: border-box;
 }
 
 .icon {
-  width: 2rem; /* Устанавливаем одинаковый размер для всех иконок */
+  width: 2rem;
   height: 2rem;
-  margin-right: 0.5rem; /* Расстояние между иконкой и текстом */
+  margin-right: 0.5rem;
 }
 
 article div {
-  text-align: center; /* Центрирует текст в блоке */
+  text-align: center; /* Центрирует текст внутри статьи */
 }
 
 /* Projects section */
