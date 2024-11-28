@@ -40,55 +40,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  #hamburger-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem; /* Уменьшить padding для мобильных */
-  }
-
-  .logo {
-    font-size: 1.2rem; /* Уменьшить размер логотипа */
-  }
-
-  .hamburger-icon {
-    display: flex;
-    flex-direction: column;
-    gap: 4px; /* Расстояние между полосками */
-    cursor: pointer;
-  }
-
-  .hamburger-icon span {
-    display: block;
-    width: 25px;
-    height: 3px; /* Полоски иконки */
-    background-color: black;
-  }
-
-  .menu-links {
-    display: none; /* По умолчанию меню скрыто */
-    position: absolute;
-    top: 100%; /* Появляется ниже navbar */
-    left: 0;
-    width: 100%;
-    background-color: white;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-
-  .menu-links li {
-    padding: 0.8rem;
-    text-align: center;
-  }
-
-  .menu-links a {
-    text-decoration: none;
-    color: #1a1a40;
-    font-size: 1rem; /* Размер текста */
-  }
-}
-
 @media screen and (max-width: 600px) {
   #contact, footer {
     height: 40vh;
