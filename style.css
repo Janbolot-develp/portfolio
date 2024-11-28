@@ -354,25 +354,32 @@ section {
   flex-direction: column;
 }
 
-article {
-  display: flex;
-  align-items: center; /* Выравнивает содержимое по вертикали */
-  justify-content: center; /* Центрирует содержимое горизонтально */
-  flex-direction: row; /* Оставляет содержимое горизонтальным */
-  margin: 0 auto; /* Центрирует сам блок относительно родителя */
-  padding: 1rem;
-  text-align: center; /* Центрует текст внутри статьи */
-}
-
 .article-container {
   display: flex;
-  flex-wrap: wrap; /* Разрешает перенос элементов на новую строку */
-  justify-content: center; /* Центрирует все статьи внутри контейнера */
-  gap: 1rem; /* Добавляет расстояние между элементами */
+  flex-wrap: wrap; /* Перенос элементов на новую строку при необходимости */
+  justify-content: center; /* Центровка всех статей */
+  gap: 1rem; /* Расстояние между элементами */
+}
+
+article {
+  display: flex;
+  flex-direction: row; /* Горизонтальное расположение содержимого */
+  align-items: center; /* Вертикальное выравнивание содержимого */
+  justify-content: center; /* Горизонтальное выравнивание содержимого */
+  width: 200px; /* Задайте фиксированную ширину для всех элементов */
+  padding: 1rem;
+  margin: 0; /* Убедитесь, что нет дополнительных внешних отступов */
+  box-sizing: border-box; /* Включает отступы и границы в ширину */
+}
+
+.icon {
+  width: 2rem; /* Убедитесь, что все иконки имеют одинаковый размер */
+  height: 2rem;
+  margin-right: 0.5rem;
 }
 
 article div {
-  text-align: center; /* Центрует текст внутри <div> */
+  text-align: center; /* Центровка текста */
 }
 
 /* Projects section */
