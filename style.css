@@ -32,10 +32,11 @@ a, .btn {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%; /* Чтобы navbar занимал всю ширину */
-  background-color: grey; /* Можно задать цвет фона */
-  z-index: 1000; /* Установите достаточно большое значение */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для визуального разделения */
+  width: 100%;
+  background-color: grey;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem; /* Уменьшить внутренние отступы */
 }
 
 .nav-links {
