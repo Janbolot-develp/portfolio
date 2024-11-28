@@ -349,37 +349,40 @@ section {
 }
 
 .experience-details-container {
-  display: flex;
-  justify-content: center; /* Центрирует содержимое по горизонтали */
-  flex-direction: column; /* Элементы будут выстраиваться вертикально */
-  align-items: center; /* Центрирует дочерние элементы по горизонтали */
+    display: flex;
+    justify-content: center; /* Центрирует содержимое по горизонтали */
+    flex-direction: column; /* Элементы будут выстраиваться вертикально */
+    align-items: center; /* Центрирует дочерние элементы по горизонтали */
 }
 
 .article-container {
-  display: flex;
-  flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
-  justify-content: center; /* Центрирует все статьи внутри контейнера */
-  gap: 2.5rem; /* Расстояние между статьями */
+    display: flex;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    justify-content: center; /* Центрирует все статьи внутри контейнера */
+    gap: 2.5rem; /* Расстояние между статьями */
 }
 
 article {
-  display: flex;
-  flex-direction: row; /* Горизонтальное расположение содержимого */
-  align-items: center; /* Центрирует содержимое по вертикали */
-  justify-content: center; /* Центрирует содержимое по горизонтали */
-  width: 200px; /* Фиксированная ширина */
-  padding: 1rem;
-  box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение содержимого */
+    align-items: center; /* Центрирует содержимое по горизонтали */
+    justify-content: center; /* Центрирует содержимое по вертикали */
+    width: 200px; /* Фиксированная ширина */
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center; /* Центрирует текст внутри статьи */
+    background-color: #f4f4f4;
+    border-radius: 5px;
 }
 
 .icon {
-  width: 2rem;
-  height: 2rem;
-  margin-right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0.5rem; /* Расстояние между иконкой и текстом */
 }
 
 article div {
-  text-align: center; /* Центрирует текст внутри статьи */
+    width: 100%; /* Полная ширина для дочерних элементов */
 }
 
 /* Projects section */
