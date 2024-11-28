@@ -356,30 +356,30 @@ section {
 
 .article-container {
   display: flex;
-  flex-wrap: wrap; /* Перенос элементов на новую строку при необходимости */
-  justify-content: center; /* Центровка всех статей */
+  flex-wrap: wrap; /* Элементы будут переноситься, если не помещаются в одну строку */
+  justify-content: center; /* Центрирует все статьи в контейнере */
   gap: 1rem; /* Расстояние между элементами */
 }
 
 article {
   display: flex;
   flex-direction: row; /* Горизонтальное расположение содержимого */
-  align-items: center; /* Вертикальное выравнивание содержимого */
-  justify-content: center; /* Горизонтальное выравнивание содержимого */
-  width: 200px; /* Задайте фиксированную ширину для всех элементов */
+  align-items: center; /* Центрирует элементы по вертикали */
+  justify-content: center; /* Центрирует содержимое горизонтально */
+  width: 200px; /* Задаем фиксированную ширину для всех статей */
   padding: 1rem;
-  margin: 0; /* Убедитесь, что нет дополнительных внешних отступов */
+  margin: 0;
   box-sizing: border-box; /* Включает отступы и границы в ширину */
 }
 
 .icon {
-  width: 2rem; /* Убедитесь, что все иконки имеют одинаковый размер */
+  width: 2rem; /* Устанавливаем одинаковый размер для всех иконок */
   height: 2rem;
-  margin-right: 0.5rem;
+  margin-right: 0.5rem; /* Расстояние между иконкой и текстом */
 }
 
 article div {
-  text-align: center; /* Центровка текста */
+  text-align: center; /* Центрирует текст в блоке */
 }
 
 /* Projects section */
