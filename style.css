@@ -28,35 +28,44 @@ a, .btn {
 /* Desktop nav */
 
 #desktop-nav, #hamburger-nav {
-	position: sticky; 
-	top: 0; 
-	width: 100%; 
-  background-color: #444; 
-	color: #fff; 
-  padding: 8px 16px; 
-  z-index: 1000; 
-  font-size: 14px; 
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff; /* White background */
+  color: #333; /* Dark text for better contrast */
+  padding: 12px 16px; /* Slightly more padding for better spacing */
+  z-index: 1000;
+  font-size: 16px; /* Slightly larger font for readability */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for separation from the background */
 }
 
-#desktop-nav .nav-links, 
-#hamburger-nav .menu-links { 
-	list-style: none; 
-	padding: 0; 
-	margin: 0; 
-	display: flex; 
-  justify-content: center; 
-} 
+#desktop-nav .nav-links, #hamburger-nav .menu-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
 
-#desktop-nav .nav-links li, 
-#hamburger-nav .menu-links li { 
-	margin: 0 10px;
-} 
+#desktop-nav .nav-links li, #hamburger-nav .menu-links li {
+  margin: 0 15px; /* More space between items */
+}
 
-#desktop-nav .nav-links li a, 
-#hamburger-nav .menu-links li a { 
-	color: #fff; 
-	text-decoration: none;  
-	font-size: 14px;  
+#desktop-nav .nav-links li a, #hamburger-nav .menu-links li a {
+  color: #333; /* Dark color for text links */
+  text-decoration: none;
+  font-size: 16px; /* Consistent font size */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover effect for better interaction feedback */
+#desktop-nav .nav-links li a:hover, #hamburger-nav .menu-links li a:hover {
+  color: #007bff; /* Blue color for hover */
+}
+
+/* Optional: Active state to highlight the current page */
+#desktop-nav .nav-links li a.active, #hamburger-nav .menu-links li a.active {
+  color: #0056b3; /* Darker blue for active state */
 }
 
 nav, .nav-links {
