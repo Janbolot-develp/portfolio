@@ -413,8 +413,15 @@ article div {
 }
 
 .additional-info {
-  text-align: center;
-  color: black;
+  display: flex; /* Используем flexbox */
+  flex-direction: column; /* Располагаем элементы по вертикали */
+  align-items: center; /* Центрируем элементы по горизонтали */
+  justify-content: flex-start; /* Элементы выравниваются снизу */
+  height: 100vh; /* Высота контейнера - 100% высоты экрана */
+}
+
+.additional-info p {
+  margin: 0.5rem 0; /* Отступы между текстами */
 }
 
 /* Contact section */
