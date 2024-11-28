@@ -396,7 +396,7 @@ article div {
   background: rgb(250, 250, 250);
   border-radius: 2rem;
   padding: 1rem;
-  margin: 1rem;
+  margin: 1rem 0; /* Убираем боковые отступы для вертикального расположения */
   width: 300px; /* Задание фиксированной ширины для всех карточек */
 }
 
@@ -437,6 +437,12 @@ article div {
   text-align: center;
   margin: 1rem 0;
   color: #333; /* Темный цвет текста для лучшей читаемости */
+}
+
+.about-containers {
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение карточек */
+  align-items: center; /* Центрирование карточек по горизонтали */
 }
 
 /* Contact section */
