@@ -27,6 +27,31 @@ a, .btn {
 
 /* Desktop nav */
 
+#desktop-nav,
+#hamburger-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Чтобы navbar занимал всю ширину */
+  background-color: white; /* Можно задать цвет фона */
+  z-index: 1000; /* Установите достаточно большое значение */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для визуального разделения */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; /* Равномерное распределение ссылок */
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black; /* Цвет текста */
+  font-weight: bold;
+}
+
 nav, .nav-links {
   display: flex;
 }
