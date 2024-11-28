@@ -412,16 +412,9 @@ article div {
   border-color: rgb(163, 163, 163);
 }
 
-.additional-info {
-  display: flex; /* Используем flexbox */
-  flex-direction: column; /* Располагаем элементы по вертикали */
-  align-items: center; /* Центрируем элементы по горизонтали */
-  justify-content: flex-start; /* Элементы выравниваются снизу */
-  height: 100vh; /* Высота контейнера - 100% высоты экрана */
-}
-
-.additional-info p {
-  margin: 0.5rem 0; /* Отступы между текстами */
+.additional-text {
+  text-align: center;
+  padding-top: 10px;
 }
 
 /* Contact section */
