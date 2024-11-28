@@ -27,6 +27,37 @@ a, .btn {
 
 /* Desktop nav */
 
+#desktop-nav, #hamburger-nav { 
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+  background-color: #333; 
+  color: white; 
+  padding: 10px 0; 
+  z-index: 1000;
+}
+
+#desktop-nav .nav-links, 
+#hamburger-nav .menu-links { 
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex;
+  justify-content: center; 
+}
+
+#desktop-nav .nav-links li, 
+#hamburger-nav .menu-links li { 
+  margin: 0 15px; 
+} 
+
+#desktop-nav .nav-links li a, 
+#hamburger-nav .menu-links li a { 
+  color: white; 
+  text-decoration: none; 
+  font-size: 18px;
+}
+
 nav, .nav-links {
   display: flex;
 }
