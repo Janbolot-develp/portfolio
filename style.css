@@ -431,13 +431,12 @@ article div {
   margin-top: auto; /* Кнопки всегда внизу */
 }
 
-.project-image {
-  border-radius: 1rem;
-  width: 90%;
-  height: auto;
-  margin-bottom: 1rem;
+.project-img {
+  width: 100%; /* Изображение занимает всю ширину родителя */
+  height: 200px; /* Фиксированная высота */
+  object-fit: cover; /* Сохраняет пропорции и обрезает лишнее */
+  border-radius: 1rem; /* Закруглённые углы, как у карточек */
 }
-
 
 /* Buttons project */
 
