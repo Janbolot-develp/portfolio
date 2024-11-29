@@ -387,34 +387,76 @@ article div {
 
 /* Projects section */
 
-#projects {
-  position: relative;
+.projects-container {
+  padding: 2rem;
 }
 
-.color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+.projects-title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }
 
-.project-img {
-  border-radius: 2rem;
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+/* Project Card Styles */
+.project-card {
+  background-color: #0c0e19;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+  border-radius: 1.5rem;
+  padding: 1rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project-image {
+  border-radius: 1rem;
   width: 90%;
-  height: 90%;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .project-title {
-  margin: 1rem;
-  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
 }
 
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
+.project-description {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
 }
 
-.additional-text {
-  text-align: center;
-  padding-top: 10px;
+/* Buttons project */
+.project-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #465697;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
 }
 
 /* Contact section */
