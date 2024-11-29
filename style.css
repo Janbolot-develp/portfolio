@@ -392,62 +392,29 @@ article div {
 }
 
 .color-container {
-  border: 1px solid rgb(163, 163, 163);
+  border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
-  border-radius: 2rem;
-  padding: 1rem;
-  margin: 1rem 0; /* Убираем боковые отступы для вертикального расположения */
-  width: 300px; /* Задание фиксированной ширины для всех карточек */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* Размещение содержимого */
-  align-items: center;
 }
 
 .project-img {
   border-radius: 2rem;
-  width: 100%;
-  height: auto; /* Автоматическая высота для сохранения пропорций изображения */
-  display: block;
-  margin: 0 auto; /* Центрирование изображения */
+  width: 90%;
+  height: 90%;
 }
 
 .project-title {
-  margin: 1rem 0;
+  margin: 1rem;
   color: black;
-  text-align: center; /* Центрирование заголовка */
-}
-
-.btn-container {
-  display: flex;
-  justify-content: space-around; /* Размещение кнопок по горизонтали с пробелами между ними */
-  width: 100%;
-  margin-bottom: 1rem;
 }
 
 .project-btn {
   color: black;
-  border: 1px solid rgb(163, 163, 163);
-  padding: 0.5rem 1rem;
-  background: #e0e0e0; /* Цвет фона для кнопок */
-  border-radius: 1rem;
-  cursor: pointer;
+  border-color: rgb(163, 163, 163);
 }
 
-.project-btn:hover {
-  background: #d0d0d0; /* Изменение цвета при наведении */
-}
-
-.additional-info {
+.additional-text {
   text-align: center;
-  margin-top: 1rem;
-  color: #333; /* Темный цвет текста для лучшей читаемости */
-}
-
-.about-containers {
-  display: flex;
-  flex-direction: column; /* Вертикальное расположение карточек */
-  align-items: center; /* Центрирование карточек по горизонтали */
+  padding-top: 10px;
 }
 
 /* Contact section */
